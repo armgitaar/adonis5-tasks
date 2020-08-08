@@ -1,11 +1,10 @@
 {
-  "name": "tasks",
+  "name": "adonisjs-example",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "node ace build",
-    "start": "node ace serve --watch",
-    "lint": "eslint . --ext=.ts"
+    "start": "node ace serve --watch"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^2.0.0",
@@ -13,20 +12,16 @@
     "pino-pretty": "^4.1.0",
     "typescript": "^3.9.7",
     "youch": "^2.0.10",
-    "eslint": "^6.8.0",
-    "eslint-plugin-adonis": "^1.0.8",
     "youch-terminal": "^1.0.0"
   },
   "dependencies": {
-    "@adonisjs/ace": "^6.8.4",
-    "@adonisjs/core": "^5.0.0-preview.4",
-    "@adonisjs/fold": "^6.3.3",
-    "@adonisjs/lucid": "^7.5.2",
-    "@adonisjs/session": "^2.3.1",
-    "@adonisjs/view": "^1.0.9",
-    "mysql": "^2.18.1",
-    "proxy-addr": "^2.0.5",
+    "@adonisjs/ace": "^6.0.0",
+    "@adonisjs/core": "^5.0.0-preview-rc",
+    "@adonisjs/fold": "^6.0.0",
+    "@adonisjs/session": "^3.0.0",
+    "@adonisjs/view": "^2.0.0",
+    "proxy-addr": "^2.0.6",
     "reflect-metadata": "^0.1.13",
-    "source-map-support": "^0.5.16"
+    "source-map-support": "^0.5.19"
   }
 }
